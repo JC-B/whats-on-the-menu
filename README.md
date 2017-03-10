@@ -10,4 +10,15 @@ the event it is served at.
 
 GLM models did not fit very well. The 'paraboli' fit, though an improvement,  did  not really befit the data set
 
-Derived some probabilities using Bayesian Theorem. Hypothesis test that average price for dinner > average price for breakfast was rejected from the p-value based on this dataset
+Derived some probabilities using Bayesian Theorem. Hypothesis test that average price for dinner > average price for breakfast was rejected from the p-value based on this dataset. Tried probability distribution for fit to prices - normal, log normal and beta. Beta seems the best fit but there are a few division by zero errors that I need to exclude from the sample.
+
+Future improvements
+
+1) More plots to visualize the dataset?
+2) Try to find a fit to predict the price of restaurant dishes  over time.
+3) Build functions and visualizations to answer more questions like
+
+a) Are there particular types of dishes (alcoholic beverages, seafood, breakfast food) whose price changes have been greater than or less than the average change over time?
+b) Can we predict anything about a dish's price based on its name or description? 
+-- There's been some work on how the words used in advertisements for potato chips are reflective of their price; is that also true of the words used in the name of the food? 
+-- Are, for example, French or Italian words more likely to predict a more expensive dish?
